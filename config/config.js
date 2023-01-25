@@ -6,7 +6,7 @@ const dev = {
         port: process.env.PORT || 4000
     },
     db: {
-        url: process.env.DB || "mongodb://localhost:27017/userDemoDb"
+        url: "mongodb+srv://masure22:atlasnowthismoment@cluster0.sarrc.mongodb.net/userDemoDb" || "mongodb://localhost:27017/userDemoDb"
     }
 }
 
